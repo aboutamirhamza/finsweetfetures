@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* =============== Common CSS Start Here =============== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+img{
+    vertical-align: middle;
+}
+
+h1,h2,h3,h4,h5,h6,li,a,p,div{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --manrope: 'Manrope', sans-serif;
+    --colorWhite: #fff;
+    --primaryColor: #282938;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* =============== Common CSS End Here =============== */
+
+
+/* =============== Header CSS Start Here =============== */
+.custom_navbar{
+    background: #1C1E53;
+}
+
+.custom_navbar .nav_btn button{
+    color: var(--colorWhite, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 16px 48px;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.20);
+    background: transparent;
+    transition: all linear 0.3s;
+}
+
+.custom_navbar .nav_btn button:hover{
+    background: #fff;
+    color: #000;
+}
+
+.custom_navbar ul li a{
+    color: #BBBBCB;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-right: 28px;
+    transition: all linear 0.3s;
+}
+
+.custom_navbar ul li a:hover{
+    color: var(--colorWhite);
+}
+/* =============== Header CSS End Here =============== */
+
+
+/* =============== Banner CSS Start Here =============== */
+#banner {
+    padding: 128px 0px;
+    background: #1C1E53;
+}
+
+#banner .banner_left_content h3{
+    color: var(--colorWhite, #FFF);
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    padding-bottom: 30px;
+}
+
+#banner .banner_left_content p{
+    color: var(--colorWhite, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 32px;
+    opacity: 0.7;
+}
+
+#banner .banner_left_content a{
+    color: var(--Dark-blue, #282938);
+    font-family: var(--manrope);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    padding: 16px 48px;
+    border-radius: 41px;
+    background: #FCD980;
+    transition: all linear 0.3s;
+}
+
+#banner .banner_left_content a:hover{
+    background: #f8b50c;
+}
+/* =============== Banner CSS End Here =============== */
+
+/* =============== Sponsor CSS Start Here =============== */
+#sponsor{
+    padding-top: 96px;
+}
+
+#sponsor .finsweet_user h3{
+    color: #282938;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+#sponsor .finsweet_user p{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+}
+
+#sponsor .finsweet_img{
+    margin-top: 20px;
+}
+/* =============== Sponsor CSS End Here =============== */
+
+/* =============== Benefit CSS Start Here =============== */
+ #benefit{
+    padding-top: 96px;
+}
+
+#benefit .benefit_headline h3{
+    color: #282938;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    margin-bottom: 48px;
+    padding: 0px 320px;
+}
+
+#benefit .benefit_main{
+    background: #F4F6FC;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+
+#benefit .benefit_main:hover{
+    box-shadow: 2px 2px 9px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 9px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 9px -5px rgba(0,0,0,0.75);
+}
+
+#benefit .benefit_main .benefit_content{
+    padding: 50px 47px;
+}
+
+#benefit .benefit_main .benefit_content .benefit_img{
+    margin-bottom: 25px;
+}
+
+#benefit .benefit_main .benefit_content h3{
+    color: #282938;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    padding-bottom: 10px;
+}
+
+#benefit .benefit_main .benefit_content p{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+}
+/* =============== Benefit CSS End Here =============== */
+
+
+/* =============== Client CSS Start Here =============== */
+#client{
+    padding: 128px 0px;
+}
+
+#client .client_left_content{
+    margin-top: 40px;
+}
+
+#client .client_left_content h4{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-bottom: 15px;
+}
+
+#client .client_left_content h3{
+    color: #232536;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    padding-bottom: 15px;
+}
+
+#client .client_left_content p{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.6;
+    padding-right: 10px;
+}
+/* =============== Client CSS End Here =============== */
+
+/* =============== Rivision CSS Start Here =============== */
+#rivision{
+    padding: 128px 0px;
+    background: #F4F6FC;
+}
+
+#rivision .rivision_right_content{
+    margin-top: 40px;
+}
+
+#rivision .rivision_right_content h5{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-bottom: 15px;
+}
+
+#rivision .rivision_right_content h3{
+    color: #232536;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px; 
+    padding-bottom: 15px;
+}
+
+#rivision .rivision_right_content p{
+    color: #232536;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.6;
+    padding-right: 10px;
+}
+/* =============== Rivision CSS End Here =============== */
+
+/* =============== Support CSS Start Here =============== */
+#support{
+    padding: 128px 0px;
+}
+
+#support .support_left_content{
+    margin-top: 40px;
+}
+
+#support .support_left_content h5{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-bottom: 15px;
+}
+
+#support .support_left_content h3{
+    color: #232536;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px; 
+    padding-bottom: 15px;
+}
+
+#support .support_left_content p{
+    color: #232536;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.6;
+    padding-right: 10px;
+}
+/* =============== Support CSS End Here =============== */
+
+
+/* =============== Delivery CSS Start Here =============== */
+#delivery{
+    padding: 128px 0px;
+    background: rgba(252, 217, 128, 0.10);
+}
+
+#delivery .delivery_right_content{
+    margin-top: 40px;
+}
+
+#delivery .delivery_right_content h4{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-bottom: 15px;
+}
+
+#delivery .delivery_right_content h3{
+    color: #232536;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px; 
+    padding-bottom: 15px;
+}
+
+#delivery .delivery_right_content p{
+    color: #232536;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.6;
+    padding-right: 10px;
+}
+/* =============== Delivery CSS End Here =============== */
+
+/* =============== FAQ CSS Start Here =============== */
+#faq{
+    padding: 128px 0px;
+}
+
+#faq .faq_left_content h3{
+    color: #282938;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    padding-bottom: 15px;
+    padding-right: 194px;
+}
+
+#faq .faq_left_content a{
+    color: #2405F2;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.87;
+}
+
+#faq .faq_right_content .custom_accordion_item{
+    border: none;
+    border-bottom: 1px solid #ECECF1;
+}
+
+#faq .faq_right_content .custom_accordion_item button{
+    color: #282938;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+#faq .faq_right_content .custom_accordion_item .custom_accordion_button span{
+    color: #2405F2;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-right: 50px;
+}
+
+#faq .faq_right_content .custom_accordion_body p{
+    color: #282938;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 60px;
+    opacity: 0.87;
+}
+/* =============== FAQ CSS End Here =============== */
+
+/* =============== Footer CSS Start Here =============== */
+#footer{
+    padding-top: 96px;
+    background: #1C1E53;
+}
+
+#footer .footer_left_content .footer_logo picture img{
+    padding-bottom: 20px;
+}
+
+#footer .footer_left_content p{
+    color: var(--colorWhite, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.8;
+    padding-right: 181px;
+}
+
+#footer .footer_left_content .email_call_content{
+    margin-top: 86px;
+    background: #FCD980;
+}
+
+#footer .footer_left_content .email_call_content .email_call{
+    padding: 17px 37px;
+}
+
+#footer .footer_left_content .email_call_content .email_call .email_and_call ul li{
+    color: #282938;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+#footer .footer_left_content .email_call_content .email_call .email_and_call ul li a{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.8;
+}
+
+
+#footer .footer_content_right h3{
+    color: var(--colorWhite, #fff);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    padding-bottom: 14px;
+}
+
+#footer .footer_content_right p{
+    color: #F4F6FC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.8;
+    padding-right: 219px;
+    padding-bottom: 28px;
+}
+
+#footer .footer_content_right .social_icon a:nth-child(1){
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 15px;
+    padding-top: 3px;
+    color: #1877F2;
+    transition: all linear 0.3s;
+}
+
+#footer .footer_content_right .social_icon a:nth-child(1):hover{
+    transform: translateY(-30%);
+    background: #1877F2;
+    color: #fff;
+}
+
+#footer .footer_content_right .social_icon a:nth-child(2){
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 15px;
+    padding-top: 3px;
+    color: #1DA1F2;
+    transition: all linear 0.3s;
+}
+
+#footer .footer_content_right .social_icon a:nth-child(2):hover{
+    transform: translateY(-30%);
+    background: #1DA1F2;
+    color: #fff;
+}
+
+#footer .footer_content_right .social_icon a:nth-child(3){
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 15px;
+    padding-top: 3px;
+    color: #fbad50;
+    transition: all linear 0.3s;
+}
+
+#footer .footer_content_right .social_icon a:nth-child(3):hover{
+    transform: translateY(-30%);
+    background: #fbad50;
+    color: #fff;
+}
+
+#footer .footer_content_right .social_icon a:nth-child(4){
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 15px;
+    padding-top: 3px;
+    color: #0072b1;
+    transition: all linear 0.3s;
+}
+
+#footer .footer_content_right .social_icon a:nth-child(4):hover{
+    transform: translateY(-30%);
+    background: #0072b1;
+    color: #fff;
+}
+
+#footer_end{
+    padding: 32px 0px;
+}
+
+#footer_end .copyright h3{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;   
+}
+
+#footer_end .footer_menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer_end .footer_menu ul li a{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+/* =============== Footer CSS End Here =============== */
+
+/* =============== Product CSS Start Here =============== */
+/* =============== Product CSS End Here =============== */
