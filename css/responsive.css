@@ -1,0 +1,914 @@
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+    /* Banner Responsive Css Start */
+    #banner .banner_left_content h3 {
+        font-size: 48px;
+    }
+    /* Banner Responsive Css End */
+    
+
+    /* Benefit Responsive Css Start */
+    #benefit .benefit_headline h3 {
+        padding: 0px 173px;
+    }
+    /* Benefit Responsive Css End */
+    
+
+    /* Client Responsive Css Start */
+    #client .client_left_content h3 {
+        font-size: 30px;
+        line-height: 41px;
+        padding-bottom: 13px;
+    }
+    /* Client Responsive Css End */
+
+    /* Rivision Responsive Css Start */
+    #rivision .rivision_right_content h3 {
+        font-size: 30px;
+        line-height: 41px;
+        padding-bottom: 13px;
+    }
+    /* Rivision Responsive Css End */
+
+    /* Support Responsive Css Start */
+    #support .support_left_content h3 {
+        font-size: 30px;
+        line-height: 41px;
+        padding-bottom: 13px;
+    }
+    /* Support Responsive Css End */
+
+    /* Delivery Responsive Css Start */
+    #delivery .delivery_right_content h3 {
+        font-size: 30px;
+        line-height: 41px;
+        padding-bottom: 13px;
+    }
+    /* Delivery Responsive Css End */
+
+    /* FAQ Responsive Css Start */
+    #faq .faq_left_content h3 {
+        font-size: 33px;
+        line-height: 49px;
+        padding-right: 43px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+    /* Navbar Responsive Css Start */
+
+    .navbar_toogler_btn{
+        background: #FCD980;
+        outline: 0;
+        color: #1C1E53;
+    }
+
+    .nabvar_menu_nav{
+        margin-top: 30px;
+    }
+    
+    .nabvar_menu_nav ul li{
+        background: #1C1E53;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        transition: all linear 0.3s;
+    }
+    
+    .nabvar_menu_nav ul li:hover{
+        background: #fff;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        transition: all linear 0.3s;
+    }
+
+    .nabvar_menu_nav ul li a{
+        color: #fff;
+        text-align: center;
+        transition: all linear 0.3s;
+    }
+
+    .nabvar_menu_nav ul li a:hover{
+        color: #000;
+    }
+
+    .nav_btn button{
+        width: 100%;
+    }
+    /* Navbar Responsive Css End */
+
+    /* Banner Responsive Css Start */
+
+    #banner {
+        padding: 48px 0px;
+    }
+
+    #banner .banner_left_content h3 {
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    #banner .banner_left_content p {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    #banner .banner_left_content a {
+        font-size: 16px;
+        padding: 6px 21px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #banner .banner_right_content_image{
+        margin-top: 30px;
+    }
+    /* Banner Responsive Css End */
+
+    /* Sponsor Responsive Css Start */
+
+    #sponsor {
+        padding-top: 52px;
+    }
+
+    #sponsor .finsweet_user{
+        text-align: center;
+    }
+    /* Sponsor Responsive Css End */
+
+    /* Benefit Responsive Css Start */
+
+    #benefit .benefit_headline h3 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px;
+        padding: 0px 0px;
+    }
+
+    #benefit .benefit_main .benefit_content h3 {
+        font-size: 20px;
+    }
+
+    #benefit .benefit_main .benefit_content p {
+        font-size: 14px;
+    }
+
+    #benefit .benefit_main{
+        margin-bottom: 15px;
+    }
+    /* Benefit Responsive Css End */
+
+    /* Client Responsive Css Start */
+
+    #client {
+        padding: 6px 0px;
+    }
+
+    #client .client_left_content{
+        text-align: center;
+    }
+
+    #client .client_left_content h3 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    #client .client_left_content p {
+        font-size: 14px;
+        line-height: 25px;
+        padding-right: 0;
+    }
+
+    #client .client_right_content_img{
+        margin-bottom: 30px;
+    }
+    /* Client Responsive Css End */
+
+    /* Rivision Responsive Css Start */
+
+    #rivision {
+        padding: 48px 0px;
+    }
+
+    #rivision .rivision_right_content{
+        text-align: center;
+    }
+
+    #rivision .rivision_right_content h3 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    #rivision .rivision_right_content p {
+        font-size: 14px;
+        line-height: 26px;
+        padding-right: 0;
+    }
+    /* Rivision Responsive Css End */
+
+    /* Support Responsive Css Start */
+    #support {
+        padding: 12px 0px;
+    }
+
+    #support .support_left_content{
+        text-align: center;
+    }
+
+    #support .support_left_content h3 {
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 10px;
+    }
+
+    #support .support_left_content p {
+        font-size: 14px;
+        line-height: 25px;
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+    /* Support Responsive Css End */
+
+    /* Delivery Responsive Css Start */
+    #delivery {
+        padding: 28px 0px;
+    }
+
+    #delivery .delivery_right_content{
+        text-align: center;
+    }
+
+    #delivery .delivery_right_content h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    #delivery .delivery_right_content p {
+        font-size: 14px;
+        line-height: 26px;
+        padding-right: 0;
+    }
+    /* Delivery Responsive Css End */
+
+    /* FAQ Responsive Css Start */
+
+    #faq {
+        padding: 30px 0px;
+    }
+
+    #faq .faq_left_content{
+        text-align: center;
+    }
+
+    #faq .faq_left_content h3 {
+        font-size: 30px;
+        line-height: 42px;
+        padding-right: 0;
+    }
+
+    #faq .faq_left_content a {
+        padding-bottom: 30px;
+    }
+
+    #faq .faq_right_content .custom_accordion_item button {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    #faq .faq_right_content .custom_accordion_item .custom_accordion_button span {
+        margin-right: 20px;
+    }
+
+    #faq .faq_right_content .custom_accordion_body p {
+        font-size: 14px;
+        line-height: 29px;
+        padding: 0px;
+    }
+    /* FAQ Responsive Css End */
+
+    /* Footer Responsive Css Start */
+
+    #footer {
+        padding-top: 60px;
+    }
+
+    #footer .footer_left_content p {
+        font-size: 14px;
+        line-height: 27px;
+        padding-right: 0;
+    }
+
+    #footer .footer_left_content .email_call_content .email_call .email_and_call ul li {
+        font-size: 14px;
+    }
+
+    #footer .footer_left_content .email_call_content .email_call .email_and_call ul li a {
+        font-size: 13px;
+    }
+
+    #footer .footer_content_right h3 {
+        padding-top: 30px;
+    }
+
+    #footer .footer_content_right p {
+        font-size: 14px;
+        line-height: 26px;
+        padding-right: 0;
+    }
+
+    #footer .social_icon{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    #footer_end .copyright h3 {
+        text-align: center;
+    }
+
+    #footer_end .footer_menu {
+        margin-left: -9px;
+        margin-top: 20px;
+    }
+
+    #footer_end .footer_menu ul li a {
+        font-size: 14px;
+    }
+    /* Footer Responsive Css End */
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    /* Navbar Responsive Css Start */
+
+    .navbar_toogler_btn{
+        background: #FCD980;
+        outline: 0;
+        color: #1C1E53;
+    }
+
+    .nabvar_menu_nav{
+        margin-top: 30px;
+    }
+    
+    .nabvar_menu_nav ul li{
+        background: #1C1E53;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        transition: all linear 0.3s;
+    }
+    
+    .nabvar_menu_nav ul li:hover{
+        background: #fff;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        transition: all linear 0.3s;
+    }
+
+    .nabvar_menu_nav ul li a{
+        color: #fff;
+        text-align: center;
+        transition: all linear 0.3s;
+    }
+
+    .nabvar_menu_nav ul li a:hover{
+        color: #000;
+    }
+
+    .nav_btn button{
+        width: 100%;
+    }
+    /* Navbar Responsive Css End */
+
+    /* Banner Responsive Css Start */
+
+    #banner {
+        padding: 48px 0px;
+    }
+
+    #banner .banner_left_content h3 {
+        font-size: 26px;
+        line-height: 40px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    #banner .banner_left_content p {
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    #banner .banner_left_content a {
+        font-size: 16px;
+        padding: 6px 21px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #banner .banner_right_content_image{
+        margin-top: 30px;
+    }
+    /* Banner Responsive Css End */
+
+    /* Sponsor Responsive Css Start */
+
+    #sponsor {
+        padding-top: 52px;
+    }
+
+    #sponsor .finsweet_user{
+        text-align: center;
+    }
+    /* Sponsor Responsive Css End */
+
+    /* Benefit Responsive Css Start */
+
+    #benefit .benefit_headline h3 {
+        font-size: 26px;
+        line-height: 40px;
+        margin-bottom: 20px;
+        padding: 0px 0px;
+    }
+
+    #benefit .benefit_main .benefit_content h3 {
+        font-size: 20px;
+    }
+
+    #benefit .benefit_main .benefit_content p {
+        font-size: 14px;
+    }
+
+    #benefit .benefit_main{
+        margin-bottom: 15px;
+    }
+    /* Benefit Responsive Css End */
+
+    /* Client Responsive Css Start */
+
+    #client {
+        padding: 6px 0px;
+    }
+
+    #client .client_left_content{
+        text-align: center;
+    }
+
+    #client .client_left_content h3 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    #client .client_left_content p {
+        font-size: 14px;
+        line-height: 25px;
+        padding-right: 0;
+    }
+
+    #client .client_right_content_img{
+        margin-bottom: 30px;
+    }
+    /* Client Responsive Css End */
+
+    /* Rivision Responsive Css Start */
+
+    #rivision {
+        padding: 48px 0px;
+    }
+
+    #rivision .rivision_right_content{
+        text-align: center;
+    }
+
+    #rivision .rivision_right_content h3 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    #rivision .rivision_right_content p {
+        font-size: 14px;
+        line-height: 26px;
+        padding-right: 0;
+    }
+    /* Rivision Responsive Css End */
+
+    /* Support Responsive Css Start */
+    #support {
+        padding: 12px 0px;
+    }
+
+    #support .support_left_content{
+        text-align: center;
+    }
+
+    #support .support_left_content h3 {
+        font-size: 26px;
+        line-height: 40px;
+        padding-bottom: 10px;
+    }
+
+    #support .support_left_content p {
+        font-size: 14px;
+        line-height: 25px;
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+    /* Support Responsive Css End */
+
+    /* Delivery Responsive Css Start */
+    #delivery {
+        padding: 28px 0px;
+    }
+
+    #delivery .delivery_right_content{
+        text-align: center;
+    }
+
+    #delivery .delivery_right_content h3 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    #delivery .delivery_right_content p {
+        font-size: 14px;
+        line-height: 26px;
+        padding-right: 0;
+    }
+    /* Delivery Responsive Css End */
+
+    /* FAQ Responsive Css Start */
+
+    #faq {
+        padding: 30px 0px;
+    }
+
+    #faq .faq_left_content{
+        text-align: center;
+    }
+
+    #faq .faq_left_content h3 {
+        font-size: 26px;
+        line-height: 42px;
+        padding-right: 0;
+    }
+
+    #faq .faq_left_content a {
+        padding-bottom: 30px;
+    }
+
+    #faq .faq_right_content .custom_accordion_item button {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    #faq .faq_right_content .custom_accordion_item .custom_accordion_button span {
+        margin-right: 20px;
+    }
+
+    #faq .faq_right_content .custom_accordion_body p {
+        font-size: 14px;
+        line-height: 29px;
+        padding: 0px;
+    }
+    /* FAQ Responsive Css End */
+
+    /* Footer Responsive Css Start */
+
+    #footer {
+        padding-top: 60px;
+    }
+
+    #footer .footer_left_content p {
+        font-size: 14px;
+        line-height: 27px;
+        padding-right: 0;
+    }
+
+    #footer .footer_left_content .email_call_content .email_call .email_and_call ul li {
+        font-size: 14px;
+    }
+
+    #footer .footer_left_content .email_call_content .email_call .email_and_call ul li a {
+        font-size: 13px;
+    }
+
+    #footer .footer_content_right h3 {
+        padding-top: 30px;
+    }
+
+    #footer .footer_content_right p {
+        font-size: 14px;
+        line-height: 26px;
+        padding-right: 0;
+    }
+
+    #footer .social_icon{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    #footer_end .copyright h3 {
+        text-align: center;
+    }
+
+    #footer_end .footer_menu {
+        margin-left: -34px;
+    }
+
+    #footer_end .footer_menu ul li a {
+        font-size: 12px;
+    }
+    /* Footer Responsive Css End */
+    
+}
+
+/* Extra-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* Navbar Responsive Css Start */
+
+    .navbar_toogler_btn{
+        background: #FCD980;
+        outline: 0;
+        color: #1C1E53;
+    }
+
+    .nabvar_menu_nav{
+        margin-top: 30px;
+    }
+    
+    .nabvar_menu_nav ul li{
+        background: #1C1E53;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        transition: all linear 0.3s;
+    }
+    
+    .nabvar_menu_nav ul li:hover{
+        background: #fff;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        transition: all linear 0.3s;
+    }
+
+    .nabvar_menu_nav ul li a{
+        color: #fff;
+        text-align: center;
+        transition: all linear 0.3s;
+    }
+
+    .nabvar_menu_nav ul li a:hover{
+        color: #000;
+    }
+
+    .nav_btn button{
+        width: 100%;
+    }
+    /* Navbar Responsive Css End */
+
+    /* Banner Responsive Css Start */
+
+    #banner {
+        padding: 48px 0px;
+    }
+
+    #banner .banner_left_content h3 {
+        font-size: 26px;
+        line-height: 40px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    #banner .banner_left_content p {
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    #banner .banner_left_content a {
+        font-size: 16px;
+        padding: 6px 21px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #banner .banner_right_content_image{
+        margin-top: 30px;
+    }
+    /* Banner Responsive Css End */
+
+    /* Sponsor Responsive Css Start */
+
+    #sponsor {
+        padding-top: 52px;
+    }
+
+    #sponsor .finsweet_user{
+        text-align: center;
+    }
+    /* Sponsor Responsive Css End */
+
+    /* Benefit Responsive Css Start */
+
+    #benefit .benefit_headline h3 {
+        font-size: 26px;
+        line-height: 40px;
+        margin-bottom: 20px;
+        padding: 0px 0px;
+    }
+
+    #benefit .benefit_main .benefit_content h3 {
+        font-size: 20px;
+    }
+
+    #benefit .benefit_main .benefit_content p {
+        font-size: 14px;
+    }
+
+    #benefit .benefit_main{
+        margin-bottom: 15px;
+    }
+    /* Benefit Responsive Css End */
+
+    /* Client Responsive Css Start */
+
+    #client {
+        padding: 6px 0px;
+    }
+
+    #client .client_left_content{
+        text-align: center;
+    }
+
+    #client .client_left_content h3 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    #client .client_left_content p {
+        font-size: 14px;
+        line-height: 25px;
+        padding-right: 0;
+    }
+
+    #client .client_right_content_img{
+        margin-bottom: 30px;
+    }
+    /* Client Responsive Css End */
+
+    /* Rivision Responsive Css Start */
+
+    #rivision {
+        padding: 48px 0px;
+    }
+
+    #rivision .rivision_right_content{
+        text-align: center;
+    }
+
+    #rivision .rivision_right_content h3 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    #rivision .rivision_right_content p {
+        font-size: 14px;
+        line-height: 26px;
+        padding-right: 0;
+    }
+    /* Rivision Responsive Css End */
+
+    /* Support Responsive Css Start */
+    #support {
+        padding: 12px 0px;
+    }
+
+    #support .support_left_content{
+        text-align: center;
+    }
+
+    #support .support_left_content h3 {
+        font-size: 26px;
+        line-height: 40px;
+        padding-bottom: 10px;
+    }
+
+    #support .support_left_content p {
+        font-size: 14px;
+        line-height: 25px;
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+    /* Support Responsive Css End */
+
+    /* Delivery Responsive Css Start */
+    #delivery {
+        padding: 28px 0px;
+    }
+
+    #delivery .delivery_right_content{
+        text-align: center;
+    }
+
+    #delivery .delivery_right_content h3 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    #delivery .delivery_right_content p {
+        font-size: 14px;
+        line-height: 26px;
+        padding-right: 0;
+    }
+    /* Delivery Responsive Css End */
+
+    /* FAQ Responsive Css Start */
+
+    #faq {
+        padding: 30px 0px;
+    }
+
+    #faq .faq_left_content{
+        text-align: center;
+    }
+
+    #faq .faq_left_content h3 {
+        font-size: 26px;
+        line-height: 42px;
+        padding-right: 0;
+    }
+
+    #faq .faq_left_content a {
+        padding-bottom: 30px;
+    }
+
+    #faq .faq_right_content .custom_accordion_item button {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    #faq .faq_right_content .custom_accordion_item .custom_accordion_button span {
+        margin-right: 20px;
+    }
+
+    #faq .faq_right_content .custom_accordion_body p {
+        font-size: 14px;
+        line-height: 29px;
+        padding: 0px;
+    }
+    /* FAQ Responsive Css End */
+
+    /* Footer Responsive Css Start */
+
+    #footer {
+        padding-top: 60px;
+    }
+
+    #footer .footer_left_content p {
+        font-size: 14px;
+        line-height: 27px;
+        padding-right: 0;
+    }
+
+    #footer .footer_left_content .email_call_content .email_call .email_and_call ul li {
+        font-size: 14px;
+    }
+
+    #footer .footer_left_content .email_call_content .email_call .email_and_call ul li a {
+        font-size: 13px;
+    }
+
+    #footer .footer_content_right h3 {
+        padding-top: 30px;
+    }
+
+    #footer .footer_content_right p {
+        font-size: 14px;
+        line-height: 26px;
+        padding-right: 0;
+    }
+
+    #footer .social_icon{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    #footer_end .copyright h3 {
+        text-align: center;
+    }
+
+    #footer_end .footer_menu {
+        margin-left: -34px;
+    }
+
+    #footer_end .footer_menu ul li a {
+        font-size: 12px;
+    }
+    /* Footer Responsive Css End */
+}
